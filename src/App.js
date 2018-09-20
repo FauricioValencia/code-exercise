@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import axios from 'axios'
+
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  componentDidMount() {
+    axios.get('http://localhost:4000/time-entries').then(console.log).catch(console.error)
+  }
+
   render() {
     return (
       <div className="App">
