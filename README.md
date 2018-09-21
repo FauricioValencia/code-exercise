@@ -1,6 +1,8 @@
 # Intro
 
-We want to build a simple app to work with time and expense data. The data is contained in two CSV files called time.csv and expenses.csv. Below, you'll find a few stories that we'd like to implement. Please read through them and let us know if you have any questions.
+We want to build a simple app to work with time and expense data. The data is contained in two CSV files called time.csv and expenses.csv. Below, you'll find a few stories that we'd like to implement. Please read through them and let us know if you have any questions. Please note that we've included wireframes for each story so that you can get a visual of the desired functionality. Since these are wireframes, you're free to implement the styling however you feel is the most practical and intuitive. Do your best to make things look nice, but don't feel like the the UI has to be perfect. What we're most concerned about is Javascript - not CSS / HTML.
+
+Feel free to use any library that you think will make things easier. Google whatever you want. We want to see what you're capabable of as an individual programmer, so please don't get anyone else's help on this project. If you need clarification on anything, please reach out to us and we'll be happy to provide clarification. You'll find the stories that we want to implement in the follow section.
 
 # Stories
 
@@ -20,7 +22,9 @@ And when I select a file from my computer,
 Then the new entries should be added to the table,  
 And I should be able to see the entries from both CSV files in the table,  
 And when I refresh the page,  
-Then I should still see the entries that I uploaded from both CSV files in the table.  
+Then I should still see the entries that I uploaded from both CSV files in the table.
+
+Notes: Please store the time and expense data in MongoDB via the Express server that we have setup. We setup a couple of example endpoints to just make sure that everything is wired together correctly. Please feel free to change is as you see fit.
 
 ## Users should be able to see the total dollar amount for entries
 
@@ -35,7 +39,7 @@ And I should see another total for time and expenses combined.
 
 ## Users should be able to sort entries
 
-The wireframes for this story are wireframes/sorting_first_time.png, wireframes/sorting_second_time.png, wireframes/sorting_different_column.png
+The wireframes for this story are wireframes/sorting_first_time.png, wireframes/sorting_second_time.png, and wireframes/sorting_different_column.png
 
 As a User,  
 Because I want to be able easily find specific entries,  
@@ -49,10 +53,20 @@ And if I click on the name of another column,
 Then the down arrow should disappear from the previous column name and should appear next to the column name that I just clicked,  
 And the entries should be sorted by that column descending.
 
-The frontend is React and was created with [create-react-app](https://github.com/facebook/create-react-app). The backend is a simple Express server with Mongoose.
+# Development
 
-- Intro
-- Rules
-- Stories
-- Setup
-- Development
+## Installation
+
+The project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app) for the client and a simple [Express](https://github.com/expressjs/express) server with [Mongoose](https://github.com/Automattic/mongoose). To install the app:
+
+1. Make sure you have [yarn](https://yarnpkg.com/en/) installed.
+2. Make sure you have [MongoDB](https://www.mongodb.com/) installed.
+3. Run `yarn install`.
+
+## Run the app
+
+1. Start the client: `yarn start:client`. This starts up a Webpack dev server using create-react-app's default settings.
+2. Start the Mongo daemon: `mongod`
+3. Start the server: `yarn start:server`. This starts up the Express server with [nodemon](https://github.com/remy/nodemon)
+
+Happy coding! :rocket:
