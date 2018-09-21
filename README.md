@@ -5,6 +5,9 @@ We want to build a simple app to work with time and expense data. The data is co
 # Stories
 
 ## Users should be able to see entries
+
+The wireframe for this story is wireframes/see_entries.png
+
 As a User,  
 Because I want to be able to see time and expense entries,  
 When I click on the "Upload CSV" button,  
@@ -20,6 +23,9 @@ And when I refresh the page,
 Then I should still see the entries that I uploaded from both CSV files in the table.  
 
 ## Users should be able to see the total dollar amount for entries
+
+The wireframe for this story is wireframes/totals.png
+
 As a User,  
 Because I want to know how much money I've billed in time and expenses,  
 When I'm viewing entries that I've uploaded from a CSV,  
@@ -28,6 +34,9 @@ And I should see another total for expenses,
 And I should see another total for time and expenses combined.  
 
 ## Users should be able to sort entries
+
+The wireframes for this story are wireframes/sorting_first_time.png, wireframes/sorting_second_time.png, wireframes/sorting_different_column.png
+
 As a User,  
 Because I want to be able easily find specific entries,  
 When I click on the name of a column,  
