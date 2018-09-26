@@ -55,6 +55,8 @@ And the entries should be sorted by that column descending.
 
 # Development
 
+Please fork this repo and push your commits to your forked version of the repo. When you're ready to share your solution with us, please provide a link to your forked repo so that we can review.
+
 ## Installation
 
 The project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app) for the client and a simple [Express](https://github.com/expressjs/express) server with [Mongoose](https://github.com/Automattic/mongoose). To install the app:
