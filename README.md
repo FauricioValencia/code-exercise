@@ -24,7 +24,9 @@ And I should be able to see the entries from both CSV files in the table,
 And when I refresh the page,  
 Then I should still see the entries that I uploaded from both CSV files in the table.
 
-Notes: Please store the time and expense data in MongoDB via the Express server that we have setup. We setup a couple of example endpoints to just make sure that everything is wired together correctly. Please feel free to change it as you see fit.
+Notes: 
+- We want to parse the the CSV on the frontend using the [File Reader API](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL#Example). Please don't worry about sending the CSV to the server.
+- Please store the time and expense data in MongoDB via the Express server that we have setup. We setup a couple of example endpoints to just make sure that everything is wired together correctly. Please feel free to change it as you see fit.
 
 ## Users should be able to see the total dollar amount for entries
 
