@@ -62,12 +62,12 @@ Please fork this repo and push your commits to your forked version of the repo. 
 The project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app) for the client and a simple [Express](https://github.com/expressjs/express) server with [Mongoose](https://github.com/Automattic/mongoose). To install the app:
 
 1. Make sure you have [yarn](https://yarnpkg.com/en/) installed.
-2. Make sure you have [MongoDB](https://www.mongodb.com/) installed.
+2. Make sure you have [MongoDB](https://www.mongodb.com/) installed. (For fullstack developers only. Don't worry about this if you're just working on the frontend.)
 3. Run `yarn install`.
 
 ## Run the app
 
-1. Start the client: `yarn start:client`. This starts up a Webpack dev server using create-react-app's default settings.
+1. Start the client: `yarn start:client`. This starts up a Webpack dev server using create-react-app's default settings. If you're just working on the frontend, then you don't need to worry about the following two steps.
 2. Start the Mongo daemon: `mongod`
 3. Start the server: `yarn start:server`. This starts up the Express server with [nodemon](https://github.com/remy/nodemon)
 
