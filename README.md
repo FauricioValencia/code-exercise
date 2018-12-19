@@ -20,13 +20,11 @@ And when I click the "Upload CSV" button again,
 Then I should be able to select another file from my computer containing expense entries,  
 And when I select a file from my computer,  
 Then the new entries should be added to the table,  
-And I should be able to see the entries from both CSV files in the table,  
-And when I refresh the page,  
-Then I should still see the entries that I uploaded from both CSV files in the table.
+And I should be able to see the entries from both CSV files in the table,
 
 Notes: 
 - We want to parse the the CSV on the frontend using the [File Reader API](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL#Example). Please don't worry about sending the CSV to the server.
-- Please store the time and expense data in MongoDB via the Express server that we have setup. We setup a couple of example endpoints to just make sure that everything is wired together correctly. Please feel free to change it as you see fit.
+- If you're applying for a fullstack position, please store the time and expense data in MongoDB via the Express server that we have setup. We setup a couple of example endpoints to just make sure that everything is wired together correctly. Please feel free to change it as you see fit. If you're just applying for a frontend position, you don't need to worry about working on the endpoints or storing the data in the database.
 
 ## Users should be able to see the total dollar amount for entries
 
