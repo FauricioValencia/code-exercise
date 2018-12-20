@@ -4,6 +4,8 @@ For this exercise, we want to build an app to work with time and expense data. T
 
 If you need a UI library, please use Material UI. For everything else, feel free to use any library that you think will make things easier. Google whatever you want. That said, we want to see what you're capabable of as an individual programmer, so please don't get anyone else's help on this project. If you need clarification on anything, please reach out to us and we'll be happy to provide clarification.
 
+Please try to use a functional approach (filter/map/reduce, immutability, etc.) when writing the code instead of an imperative approach (for/while, mutations, etc.).
+
 # Stories
 
 ## Users should be able to see entries
