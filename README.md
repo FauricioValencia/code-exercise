@@ -69,8 +69,8 @@ The project was bootstrapped with [create-react-app](https://github.com/facebook
 
 ## Run the app
 
-1. Start the client: `yarn start:client`. This starts up a Webpack dev server using create-react-app's default settings.
+1. `cd` into the `client` directory and run `yarn start`. This starts up a Webpack dev server using create-react-app's default settings.
 2. Start the Mongo daemon: `mongod` (Fullstack developers only.)
-3. Start the server: `yarn start:server`. This starts up the Express server with [nodemon](https://github.com/remy/nodemon). (Fullstack developers only.)
+3. `cd` into the `server` directory and run `yarn start`. This starts up the Express server with [nodemon](https://github.com/remy/nodemon). (Fullstack developers only.)
 
 Happy coding! :rocket:
