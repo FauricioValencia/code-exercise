@@ -57,7 +57,7 @@ And the entries should be sorted by that column descending.
 
 # Development
 
-Please fork this repo and push your commits to your forked version of the repo. When you're ready to share your solution with us, please provide a link to your forked repo so that we can review. If you need a UI library, please use Material UI.
+Fork this repo and open a PR against the master branch of your repo. (Please don't open the PR against this repo). When you're ready to share your solution with us, send us a link to the PR (or PRs if you're opening more than 1) in your forked repo so that we can review. If you need a UI library, use Material UI.
 
 ## Installation
 
