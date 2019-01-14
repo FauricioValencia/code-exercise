@@ -6,14 +6,6 @@ If you need a UI library, please use Material UI. For everything else, feel free
 
 Please use React and try to use a functional approach (filter/map/reduce, immutability, etc.) when writing the code instead of an imperative approach (for/while, mutations, etc.).
 
-# Submission
-
-Once you're ready to submit your solution, please do the following:
-
-1. Create a repo against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution.
-2. Give donald-s access to your repo.
-3. Send the link to the PR in the Slack channel that we added you to.
-
 # Stories
 
 ## Users should be able to see entries
@@ -80,5 +72,13 @@ The project was bootstrapped with [create-react-app](https://github.com/facebook
 1. Start up the client with Webpack dev server using create-react-app's default settings: `yarn start:client`.
 2. Start the Mongo daemon: `mongod` (Fullstack developers only.)
 3. Run `yarn start:server` to start up Express server with [nodemon](https://github.com/remy/nodemon). (Fullstack developers only.)
+
+# Submission
+
+Once you're ready to submit your solution, please do the following:
+
+1. Create a repo against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution.
+2. Give donald-s access to your repo.
+3. Send the link to the PR in the Slack channel that we added you to.
 
 Happy coding! :rocket:
