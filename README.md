@@ -2,9 +2,17 @@
 
 For this exercise, we want to build an app to work with time and expense data. The data is contained in two CSV files called time.csv and expenses.csv. Below, you'll find a few stories that we'd like to implement. Please read through them and let us know if you have any questions. Please note that we've included wireframes for each story so that you can get a visual of the desired functionality. Since these are wireframes, you're free to implement the styling however you feel is the most practical and intuitive. Do your best to make things look nice, but don't feel like the the UI has to be perfect. What we're most concerned about is Javascript - not CSS / HTML.
 
-If you need a UI library, please use Material UI. For everything else, feel free to use any library that you think will make things easier. Google whatever you want. That said, we want to see what you're capabable of as an individual programmer, so please don't get anyone else's help on this project. If you need clarification on anything, please reach out to us and we'll be happy to provide clarification.
+If you need a UI library, please use Material UI. For everything else, feel free to use any library that you think will make things easier. Feel free to search on Google, StackOverflow, etc. That said, we want to see what you're capabable of as an individual programmer, so please don't get anyone else's help on this project. If you need clarification on anything, please reach out to us and we'll be happy to provide clarification.
 
 Please use React and try to use a functional approach (filter/map/reduce, immutability, etc.) when writing the code instead of an imperative approach (for/while, mutations, etc.).
+
+# Submission
+
+Once you're ready to submit your solution, please do the following:
+
+1. Create a repo against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution.
+2. Give donald-s access to your repo.
+3. Send the link to the PR in the Slack channel that we added you to.
 
 # Stories
 
