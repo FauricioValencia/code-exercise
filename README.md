@@ -77,7 +77,7 @@ The project was bootstrapped with [create-react-app](https://github.com/facebook
 
 Once you're ready to submit your solution, please do the following:
 
-1. Create a repo against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution.
+1. Create a pull request against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution.
 2. Give donald-s access to your repo.
 3. Send the link to the PR in the Slack channel that we added you to.
 
