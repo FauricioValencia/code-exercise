@@ -65,7 +65,7 @@ The project was bootstrapped with [create-react-app](https://github.com/facebook
 
 1. Make sure you have [yarn](https://yarnpkg.com/en/) installed.
 2. Make sure you have [MongoDB](https://www.mongodb.com/) installed. (Fullstack developers only.)
-3. Run `yarn install`.
+3. Run `yarn install`. Please use yarn and not npm. Using npm creates a `package-lock.json` which sometimes prevents/messes up a `yarn install`.
 
 ## Run the app
 
