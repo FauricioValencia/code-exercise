@@ -21,5 +21,9 @@
     "test:client": "react-scripts test --env=jsdom",
     "eject:client": "react-scripts eject",
     "start:server": "nodemon server/app.js -w server"
+  },
+  "engines": {
+    "node": "v10.15.0",
+    "yarn": "v1.13.0"
   }
 }
