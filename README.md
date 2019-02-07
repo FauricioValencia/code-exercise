@@ -1,8 +1,12 @@
 # Intro
 
-For this exercise, we want to build an app to work with time and expense data. The data is contained in two CSV files called time.csv and expenses.csv. Below, you'll find a few stories that we'd like to implement. Please read through them and let us know if you have any questions. Please note that we've included wireframes for each story so that you can get a visual of the desired functionality. Since these are wireframes, you're free to implement the styling however you feel is the most practical and intuitive. Do your best to make things look nice, but don't feel like the the UI has to be perfect. What we're most concerned about is Javascript - not CSS / HTML.
+This repo contains an exercise that we'd like to work through with you to give you a feel for how we work and to give us a feel for how you work. First we'll go over the objective of the application that we're building in this exercise. Next, you'll find a list of stories that we'd like to implement. After that, there are instructions on how to get started with development. Finally, you'll find some guidelines to use to submit your solution. If you have any questions, please feel free to reach out to us in the Slack channel that we added you to.
 
-If you need a UI library, please use Material UI. For everything else, feel free to use any library that you think will make things easier. Feel free to search on Google, StackOverflow, etc. That said, we want to see what you're capabable of as an individual programmer, so please don't get anyone else's help on this project. If you need clarification on anything, please reach out to us and we'll be happy to provide clarification.
+# Objective
+
+For this exercise, we want to build an app to work with some simulated time and expense data. The data is contained in two CSV files called time.csv and expenses.csv located in the `/data` directory of the repo. Below, you'll find a few stories that we'd like to implement. Please read through them and let us know if you have any questions. Note that we've included wireframes for each story so that you can get a visual of the desired functionality. Since these are wireframes, you're free to implement the styling however you feel is the most practical and intuitive. Do your best to make things look nice, but don't feel like the the UI has to be pixel-perfect.
+
+If you need a UI library, please use Material UI. For everything else, feel free to use any library that you think will make things easier (lodash, axios, etc.). Feel free to search on Google, StackOverflow, etc. That said, we want to see what you're capabable of as an individual programmer, so please don't get anyone else's help on this project. If you need clarification on anything, please reach out to us and we'll be happy to provide clarification.
 
 Please use React and try to use a functional approach (filter/map/reduce, immutability, etc.) when writing the code instead of an imperative approach (for/while, mutations, etc.).
 
@@ -57,7 +61,7 @@ And the entries should be sorted by that column descending.
 
 # Development
 
-Fork this repo and open a PR against the master branch of your repo. (Please don't open the PR against this repo). When you're ready to share your solution with us, send us a link to the PR (or PRs if you're opening more than 1) in your forked repo so that we can review. If you need a UI library, use Material UI.
+Fork this repo and pull it down locally on your machine for development. If you're not sure how to fork a repo, you can find GitHub's documentation on it here: https://help.github.com/articles/fork-a-repo/
 
 ## Installation
 
@@ -77,8 +81,8 @@ The project was bootstrapped with [create-react-app](https://github.com/facebook
 
 Once you're ready to submit your solution, please do the following:
 
-1. Create a pull request against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution.
-2. Give donald-s access to your repo.
+1. Create a pull request against the master branch from **your** repo. Please don't open the pull request against the master branch from our repo. We don't want other candidates having access to your awesome solution. :eyes:
+2. Give @donald-s access to your repo.
 3. Send the link to the PR in the Slack channel that we added you to.
 
-Happy coding! :rocket:
+Thanks for taking the time to work through this exercise with us. We're excited to see what you come up with! Happy coding! :rocket:
