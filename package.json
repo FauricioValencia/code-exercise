@@ -23,7 +23,7 @@
     "start:server": "nodemon server/app.js -w server"
   },
   "engines": {
-    "node": ">= v10.15.0",
-    "yarn": "v1.13.0"
+    "node": "v10.x",
+    "yarn": "v1.x"
   }
 }
