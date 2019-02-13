@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
@@ -11,6 +12,7 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.18.4",
     "react": "^16.5.2",
+    "react-csv-reader": "^1.2.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5",
     "winston": "^3.1.0"
@@ -20,10 +22,18 @@
     "build:client": "react-scripts build",
     "test:client": "react-scripts test --env=jsdom",
     "eject:client": "react-scripts eject",
-    "start:server": "nodemon server/app.js -w server"
+    "start:server": "nodemon server/app.js -w server",
+    "lint": "eslint src"
   },
   "engines": {
     "node": "v10.x",
     "yarn": "v1.x"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
   }
 }
