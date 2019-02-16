@@ -5,14 +5,13 @@ import CSVReader from 'react-csv-reader'
 import Table from '@material-ui/core/Table';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import TableBody from '@material-ui/core/TableBody';
+
 import Paper from '@material-ui/core/Paper';
 
 //  IMPORT COMPONENTS
-import CustomHeadTable from './components/HeadTable/'
 import CustomizedTable from './components/BodyTable/';
-import CustomButton from './components/CustomButton/';
 
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -28,10 +27,9 @@ class App extends Component {
   handleForce = (e) =>{
     console.log('recibiendo: ');
     this.setState({ data: e })
-    console.log( e );
   }
   render() {
-    const { head, data } = this.state;
+    const { data } = this.state;
     return (
       <div className="App">
         <Paper >
@@ -44,7 +42,7 @@ class App extends Component {
                     if(index == 0){
                     return  item.map((p, q, r)=>{
                         return(
-                            <CustomHeadTable
+                            <CustomizedTable
                               key={q}
                               title={p}
                             />
@@ -55,7 +53,31 @@ class App extends Component {
                 }
               </TableRow>
             </TableHead>
-            <CustomizedTable/>
+            <TableBody>
+            {
+                  Array.isArray(data) && data.length >0 &&
+                  data.map((item, index)=>{
+                    if(index > 0){
+                      return(
+
+                        <TableRow>
+                      {
+                        item.map((p,i)=>{
+                          console.log('p: ',p);
+                          return(
+                            <CustomizedTable
+                            key={i}
+                            title={p}
+                            />
+                            )
+                          })
+                        }
+                    </TableRow>
+                        )
+                  }
+                  })
+                }
+            </TableBody>
           </Table>
         </Paper>
         <section>
@@ -65,7 +87,6 @@ class App extends Component {
             onError={this.handleDarkSideForce}
             inputId="ObiWan"
           />
-
         </section>
       </div>
     );

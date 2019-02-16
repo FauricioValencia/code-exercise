@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
-import TableRow from '@material-ui/core/TableRow';
 
 const CustomTableCell = withStyles(theme => ({
   head: {
@@ -31,22 +29,13 @@ const styles = theme => ({
   },
 });
 
-const  CustomizedTable = (props)   => (
-    <TableBody>
-        <TableRow>
-            <CustomTableCell component="th" scope="row"></CustomTableCell>
-            <CustomTableCell align="right"></CustomTableCell>
-            <CustomTableCell align="right"></CustomTableCell>
-            <CustomTableCell align="right"></CustomTableCell>
-            <CustomTableCell align="right"></CustomTableCell>
-            <CustomTableCell align="right"></CustomTableCell>
-        </TableRow>
-    </TableBody>
-
-  );
+const CustomizedTable = (props) => {
+  const { title } = props;
+  return (<CustomTableCell align="center">{title}</CustomTableCell>);
+};
 
 CustomizedTable.propTypes = {
-  classes: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default withStyles(styles)(CustomizedTable);
